@@ -9,11 +9,12 @@ html,body {
 }
 
 
-
+/* There are 2 fonts but you have implemented only one. */
 
 
 
 /* ----------------- global-stuff ----------------- */
+/* Awesome work on using CSS variables! */
 :root {
 --background: #F5F3EF;
 --card: #FFFFFF;
@@ -37,7 +38,7 @@ h3 {
 }
 
 /* ----------------- website-stuff ----------------- */
-
+/* Great work on creating this grid! However, one of the points in the rubric is to use grid-template-areas. */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -147,6 +148,7 @@ h3 {
     background-color: var(--background);
 }
 
+/* Beautiful work on inner grid! */
 .section1 {
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -158,6 +160,7 @@ h3 {
     margin-inline: auto;
 }
 
+/* You can have one class called grid-item and give that class to all the grid elements rather than having many classes doing the same thing. */
 .grid-item1, .grid-item2, .grid-item3, .grid-item4, .grid-item5, .grid-item6  {
     display: flex;
     flex-direction: column;
@@ -234,7 +237,7 @@ padding-left: ;
 }
 
 /* ----------------- media query stuff ----------------- */
-
+/* Superb work on all responsivity! 👏 */
 
 @media only screen and (max-width: 1125px) {
  
@@ -288,6 +291,8 @@ padding-left: ;
 
 }
 @media only screen and (max-width: 700px) {
+
+    /* When I click on the hamburger menu button, it’s not functioning as a functional hamburger menu. */
  
     .grid-container {
         display: grid;
